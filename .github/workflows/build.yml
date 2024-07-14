@@ -54,7 +54,7 @@ jobs:
   linux:
     name: 'Linux'
     runs-on: ubuntu-latest
-    container: s1lentq/linux86buildtools:latest
+    # container: s1lentq/linux86buildtools:latest
     outputs:
       app-version: ${{ steps.app-version.outputs.version }}
 
